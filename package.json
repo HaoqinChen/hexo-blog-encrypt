@@ -1,0 +1,36 @@
+{
+  "author": {
+    "name": "FrWalkerCn"
+  },
+  "bugs": {
+    "url": "https://github.com/FrWalkerCn/hexo-blog-encrypt-plus/issues"
+  },
+  "description": "A Hexo plugin for encrypting posts and pages",
+  "homepage": "https://github.com/FrWalkerCn/hexo-blog-encrypt-plus#readme",
+  "keywords": [
+    "encrypt",
+    "blog",
+    "hexo"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "frwalker.cn@gmail.com",
+      "name": "FrWalkerCn"
+    }
+  ],
+  "name": "hexo-blog-encrypt-plus",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/FrWalkerCn/hexo-blog-encrypt-plus.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js ./"
+  },
+  "version": "0.0.0",
+  "devDependencies": {
+    "eslint": "^6.2.2"
+  }
+}
