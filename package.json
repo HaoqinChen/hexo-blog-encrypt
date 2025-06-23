@@ -1,11 +1,40 @@
 {
+  "_from": "hexo-blog-encrypt-plus@0.0.0",
+  "_id": "hexo-blog-encrypt-plus@0.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-gonUglau/by4nlBs3t3le12Cmcaoi6uFGtZ7wB8QwEcdGGyVfqHypw5CW+ZoekAHySNiv5W6gkAlBJCIKnnVhA==",
+  "_location": "/hexo-blog-encrypt-plus",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "hexo-blog-encrypt-plus@0.0.0",
+    "name": "hexo-blog-encrypt-plus",
+    "escapedName": "hexo-blog-encrypt-plus",
+    "rawSpec": "0.0.0",
+    "saveSpec": null,
+    "fetchSpec": "0.0.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmmirror.com/hexo-blog-encrypt-plus/-/hexo-blog-encrypt-plus-0.0.0.tgz",
+  "_shasum": "d9cddee2bb5218a489928287494a52a1ce12d497",
+  "_spec": "hexo-blog-encrypt-plus@0.0.0",
+  "_where": "E:\\myblog",
   "author": {
     "name": "FrWalkerCn"
   },
   "bugs": {
     "url": "https://github.com/FrWalkerCn/hexo-blog-encrypt-plus/issues"
   },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "A Hexo plugin for encrypting posts and pages",
+  "devDependencies": {
+    "eslint": "^6.2.2"
+  },
   "homepage": "https://github.com/FrWalkerCn/hexo-blog-encrypt-plus#readme",
   "keywords": [
     "encrypt",
@@ -16,8 +45,8 @@
   "main": "index.js",
   "maintainers": [
     {
-      "email": "frwalker.cn@gmail.com",
-      "name": "FrWalkerCn"
+      "name": "FrWalkerCn",
+      "email": "frwalker.cn@gmail.com"
     }
   ],
   "name": "hexo-blog-encrypt-plus",
@@ -26,11 +55,8 @@
     "url": "git+ssh://git@github.com/FrWalkerCn/hexo-blog-encrypt-plus.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint --ext .js ./"
+    "lint": "eslint --ext .js ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.0.0",
-  "devDependencies": {
-    "eslint": "^6.2.2"
-  }
+  "version": "0.0.0"
 }
